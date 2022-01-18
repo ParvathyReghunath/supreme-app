@@ -13,21 +13,30 @@
 				position: absolute;
 				left: 0%;
 				text-align: center;
-				background-color:linear-gradient(309.41deg, #39FFF3 -13.25%, rgba(0, 16, 171, 0.96) 110.52%);
+				
 				
 			}
 			
 
 			/*apply css properties to container class*/
 
-			.container {
+			#container {
 				justify-content: center;
 				align-items: center;
 				display: flex;
 				height: 100%;
-				text-align: center;
-				background-color: linear-gradient(309.41deg, #39FFF3 -13.25%, rgba(0, 16, 171, 0.96) 110.52%);
+				text-align: left;
+				background-image:linear-gradient(to bottom right,red,yellow) !important;
 				
+			}
+			.ellipse {
+				position: absolute;
+				width: 42px;
+				height: 42px;
+				left: 50px;
+				top: 334px;
+				
+				background: #a4440c;
 			}
 
 			.rectangle {
@@ -133,7 +142,7 @@ line-height: 57px;
 		        <h1>CounterApp</h1>
 			<!-- adding button and heading to show the digits -->
 			<!-- increment() and decrement() functions on button click-->
-			    <div class="rectanglei"><button onclick="increment()">increment</button></div>
+			<div class="ellipse"><div class="rectanglei"><button onclick="increment()">increment</button></div></div>
 			
 			    <h2 id="counting" ></h2>
 			    <div class="rectangled"><button onclick="decrement()">decrement</button></div>

@@ -7,9 +7,11 @@ body {
 	
 	
 }
-#grad {
-	background-image:-webkit-linear-gradient(red, yellow, blue);
-  }
+#box {
+	width: 1512px;
+	height: 982px;
+	background: linear-gradient(309.41deg, #39FFF3 -13.25%, rgba(0, 16, 171, 0.96) 110.52%);
+}
 /*apply css properties to container class*/
 
 .container {
@@ -111,8 +113,9 @@ h1 {
 	color: #000000;
 				text-align: center;
 				padding-left: 5%;
-				font-family: Poppins;
+				
 font-style: normal;
+font-family: po;
 font-weight: 600;
 font-size: 38px;
 line-height: 57px;
